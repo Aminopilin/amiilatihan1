@@ -1,0 +1,72 @@
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #00BFFF;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+h1 {
+  margin: 0;
+}
+main {
+  margin: 5px auto;
+  padding: 20px;
+  text-align: left; /* Menambahkan text-align: left untuk menempatkan teks di kiri */
+}
+
+figure {
+  margin: 2;
+  padding: 2;
+  text-align: left; 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-right: 20px; /* Menambahkan margin untuk memberi ruang antara gambar dan deskripsi */
+}
+.description {
+  text-align: justify; /* Menambahkan text-align: justify untuk teks rata kanan kiri */
+
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+.link-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.link-button:hover {
+  background-color: #45a049;
+}
+
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
